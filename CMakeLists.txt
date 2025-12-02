@@ -3,6 +3,8 @@ project(Final_Proyect_Programming_II)
 
 set(CMAKE_CXX_STANDARD 20)
 
+include_directories(src)
+
 add_executable(Final_Proyect_Programming_II
         main.cpp
         src/building.cpp
@@ -14,3 +16,4 @@ add_executable(Final_Proyect_Programming_II
         src/unit.cpp
         src/ux.cpp
 )
+
