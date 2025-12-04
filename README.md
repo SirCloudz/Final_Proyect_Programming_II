@@ -70,11 +70,20 @@ El requisito es tener make y un Sistema Operativo (por obvias razones). En nuest
 
 ▶️ Ejecución
 Abre tu terminal, ingresa al directorio general (Final_Proyect_Programming_II) y ejecuta los siguientes codigos:
-     -   mkdir build 
-     -    cd build
-     -   cmake ..
-     -   make
-     -   ./Final_Proyect_Programming_II
+# 1. Crea el directorio de construccion
+mkdir build
+
+# 2. Entra al directorio
+cd build
+
+# 3. Configurar el proyecto con CMake
+cmake ..
+
+# 4. Compilar el código fuente
+make
+
+# 5. Ejecuta el juego
+./Final_Proyect_Programming_II
 
 De esta manera podras ejecutar satisfactoriamente nuestro juego!.
 
